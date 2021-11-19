@@ -22,15 +22,3 @@ document.getElementById("reset").onclick = function() {
     document.getElementById("num2").value = ""; 
     document.getElementById("result").innerHTML = " "; 
   };
-// var result='';
-
-// var input = function (char){
-// this.result = this.result.toString();
-// this.result+=char;
-// };
-// var reset = function(){
-// this.result=' ';
-// }
-// function calc(){
-//     this.result = eval(this.result);
-// }
