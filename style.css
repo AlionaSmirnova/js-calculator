@@ -1,68 +1,72 @@
 * {
-    font-family: 'Gilroy',sans-serif;
-    transition: 0.3s all;
-      font-weight: 600;
-      background-color: rgb(247, 213, 247);
-  } 
-  #h{
-      text-align: center;
-  }
-  h3{
-width: 250px;
-  }
-  #app {
-      align-items: center;
-    width: 300px;
-    box-shadow: 0 3px 15px rgb(58, 55, 80);
-    height: 150px;
-        display: flex;
-        align-content: flex-start;
-        margin: 0 auto;
-  }
-  /* input[type="text"] {
-    width: 200px;
-    border: 0;
-    color: #243849;
-    font-size: 18px;
-    padding: 5px 1px;
-    text-align: right;
-  } */
-  .grid {
-    display: flex;                       
-    flex-wrap: wrap;  
-    justify-content: space-around;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    
-  }
-  
-  .cells {
-    flex: 40%;                       
-    height: 30px;
-    font-size: 17px;
-    border: none;
-    flex-direction: row;
-    width: 50px;
-   
-  }
-  .num {
-    background-color: #fdfbfb;
-    color: black;
-    font-weight: 400;
-    border:ridge aqua;
-  }
-  .cells:hover{
-    background-color: #9f5ac7;
-  }
-  .op {
-    background-color: #ff9900;
-    color: #243849;
-  } 
-  #calc:hover{
-    background-color: #9f5ac7;
-  }
-  #reset:hover{
-    background-color: #9f5ac7;
-  }
-   
+  font-family: "Gilroy", sans-serif;
+  transition: 0.3s all;
+  font-weight: 600;
+  background-color: rgb(253, 253, 253);
+}
+#h {
+  text-align: center;
+}
+h3 {
+  width: 250px;
+}
+#app {
+  background-color: rgb(247, 213, 247);
+  align-items: center;
+  width: 500px;
+  box-shadow: 0 3px 15px rgb(73, 37, 80);
+  height: 200px;
+  display: flex;
+  align-content: flex-start;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(247, 213, 247);
+}
+
+.num {
+  background-color: #fdfbfb;
+  color: black;
+  font-weight: 500;
+  border: ridge aqua;
+  line-height: 25px;
+}
+.num:hover {
+  background-color: #dcc7e7;
+}
+.op {
+  background-color: #ff9900;
+  color: #243849;
+}
+#calc {
+  margin-top: 10px;
+  border: 4px ridge aqua;
+  background-color: #bf89df;
+  width: 100px;
+  height: 30px;
+  border-radius: 4px;
+}
+#calc:hover {
+  background-color: #9f5ac7;
+  border: ridge #ff9900;
+}
+#reset {
+  margin-top: 5px;
+  border: 4px ridge aqua;
+  width: 100px;
+  background-color: #bf89df;
+  height: 30px;
+  border-radius: 4px;
+}
+#reset:hover {
+  background-color: #9f5ac7;
+  border: ridge #ff9900;
+}

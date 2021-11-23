@@ -12,21 +12,18 @@
     <main>
       <div id="app">
         <div class="grid">
-          <!-- <input onkeyup.enter='calc' type="text" v-model="reset" placeholder="0"> -->
-          <input type="number" id="num1" class="num" placeholder="0" />
-          <input type="number" id="num2" class="num" placeholder="0" />
-
-          <button id="plus" class="cells" onclick="op='+'">+</button>
-          <button id="minus" class="cells" onclick="op='-'">-</button>
-          <button id="times" class="cells" onclick="op='*'">*</button>
-          <button id="divide" class="cells" onclick="op='/'">/</button>
+          <input
+            type="text"
+            id="num1"
+            class="num"
+            placeholder="Enter the numbers"
+          />
           <button onclick="func()" id="calc">Calculate</button>
-
-          <input type="reset" id="reset" value="Reset">
+          <input type="reset" id="reset" value="Reset" />
           <p id="result"></p>
         </div>
       </div>
     </main>
   </body>
-  <script src="script.js"> </script>
+  <script src="script.js"></script>
 </html>
